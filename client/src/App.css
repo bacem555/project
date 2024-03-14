@@ -1,0 +1,267 @@
+  /* app.css */
+
+/* Header styles (existing) */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-center {
+  display: flex;
+  gap: 1rem;
+  align-items: center; /* Align items in the center vertically */
+}
+
+.nav-right {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Optional: Add styles for the links */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Registration form styles (existing) */
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white; /* Set background color to white */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 90%;
+}
+.btn1 {
+  padding: 10px;
+  background-color: #1edf68;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: auto;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Login form styles (existing) */
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white; /* Set background color to white */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* CreateBlog component styles (new) */
+.create-blog-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white; /* Set background color to white */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-blog-container h2 {
+  text-align: center;
+}
+
+.blog-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-form .form-group {
+  margin-bottom: 15px;
+}
+
+.blog-form label {
+  font-weight: bold;
+}
+
+.blog-form input,
+.blog-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px; /* Adjusted spacing between input fields */
+}
+
+.blog-form textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+.blog-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.blog-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Contact.css */
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white; /* Set background color to white */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Add styles for the search icon */
+.search-icon {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  color: white; /* Set icon color to white */
+}
+
+/* Add styles for the search input */
+.search-input {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white; /* Set input background color to white */
+  color: #333; /* Set input text color to dark */
+}
+/* Logout button styles */
+.logout-button {
+  padding: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
